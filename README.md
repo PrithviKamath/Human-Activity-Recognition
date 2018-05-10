@@ -41,3 +41,6 @@ LSTM has a better accuracy at predicting the human activity as compared to any m
 •	Inclusion of third variable to improve prediction accuracy </br  >
 •	Android App enhancements with user better interface </br  >
 •	Implement flask API to display output on a remote server </br  >
+</br>
+</br>
+For more details, please refer HumanActivityRecognition_Report</br>
