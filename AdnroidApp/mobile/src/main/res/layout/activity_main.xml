@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewUpstairsValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewUpstairs"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWalkingValue" />
+
+    <TextView
+        android:id="@+id/textViewStandingValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewStanding"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLayingValue" />
+
+    <TextView
+        android:id="@+id/textViewSiting"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/sitting"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDownstairs" />
+
+    <TextView
+        android:id="@+id/textViewLaying"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/laying"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSiting" />
+
+    <TextView
+        android:id="@+id/textViewStanding"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/standing"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLaying" />
+
+    <TextView
+        android:id="@+id/textViewDownstairs"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/downstairs"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUpstairs" />
+
+    <TextView
+        android:id="@+id/textViewWalking"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/walking"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUpstairs"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/upstairs"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWalking" />
+
+    <TextView
+        android:id="@+id/textViewWalkingValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewWalking"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDownstairsValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewDownstairs"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUpstairsValue" />
+
+    <TextView
+        android:id="@+id/textViewSittingValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSiting"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDownstairsValue" />
+
+    <TextView
+        android:id="@+id/textViewLayingValue"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLaying"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSittingValue" />
+
+    <TextView
+        android:id="@+id/textViewXAxis"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStanding" />
+
+    <TextView
+        android:id="@+id/textViewYAxis"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewXAxis"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStanding" />
+
+    <TextView
+        android:id="@+id/textViewZAxis"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewYAxis"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStanding" />
+
+    <TextView
+        android:id="@+id/textViewXGyro"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewXAxis" />
+
+    <TextView
+        android:id="@+id/textViewYGyro"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewXGyro"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYAxis" />
+
+    <TextView
+        android:id="@+id/textViewZGyro"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewYGyro"
+        app:layout_constraintTop_toBottomOf="@+id/textViewZAxis" />
+
+    <TextView
+        android:id="@+id/textViewNumberOfVariables"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="51dp"
+        android:text="Number of readings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewXGyro" />
+
+    <TextView
+        android:id="@+id/textViewNumberOfReadingsValue"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="51dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewNumberOfVariables"
+        app:layout_constraintTop_toBottomOf="@+id/textViewZGyro" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Time Difference"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumberOfVariables" />
+
+    <TextView
+        android:id="@+id/textViewTimeDiffValue"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumberOfReadingsValue" />
+
+
+</android.support.constraint.ConstraintLayout>
