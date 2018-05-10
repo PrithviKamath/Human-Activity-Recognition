@@ -38,9 +38,10 @@ Final Project <br />
 LSTM has a better accuracy at predicting the human activity as compared to any machine learning algotihm or even RNN. RNN has 81.81% accuracy where as LSTM has 88.97% accuracy</br  >
  </br  >
 <b>Future Scope</b>: </br  >
-•	Inclusion of third variable to improve prediction accuracy </br  >
-•	Android App enhancements with user better interface </br  >
-•	Implement flask API to display output on a remote server </br  >
+•	Inclusion of third variable to improve prediction accuracy </br>
+•	Android App enhancements with user better interface </br>
 </br>
 </br>
 For more details, please refer HumanActivityRecognition_Report</br>
+</br>
+Project Website: https://krutsdeshpande.wixsite.com/bigdata-har </br>
