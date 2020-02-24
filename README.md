@@ -43,5 +43,3 @@ LSTM has a better accuracy at predicting the human activity as compared to any m
 </br>
 </br>
 For more details, please refer HumanActivityRecognition_Report</br>
-</br>
-Project Website: https://krutsdeshpande.wixsite.com/bigdata-har </br>
